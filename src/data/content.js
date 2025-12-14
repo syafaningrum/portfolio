@@ -5,6 +5,7 @@ import sdniotProject from '../assets/portfolio/sdniot.png';
 import ccnaCertif from '../assets/certificate/ccna.jpg';
 import dockerProject from '../assets/portfolio/docker.png';
 import aiProject from '../assets/portfolio/ai.png';
+import resume from './public/resume.pdf';
 
 export default {
     personalInfo: {
@@ -12,7 +13,7 @@ export default {
         role: "Telecommunication Engineering Student",
         bio: "Aspiring network engineer and developer utilizing technology to connect the world. Passionate about IoT, 5G, and Data.",
         image: profileImage,
-        resumeLink: "/resume.pdf",
+        resumeLink: "",
         contact: {
             email: "ssyafaningrum@gmail.com",
             linkedin: "https://www.linkedin.com/in/siti-nurhayati-syafaningrum-b113931b0/",
@@ -52,7 +53,7 @@ export default {
             description: "Empowering IoT Networks with Open- Source SDN using Multi- Tenant Slicing via Ryu Controller and IoT-DLVisor",
             techStack: ["Ryu Controller", "Raspberry Pi", "Flowvisor", "OpenFlow", "SDN"],
             image: sdniotProject,
-            link: "https://github.com/alexdoe/signal-tool"
+            link: "https://www.canva.com/design/DAG7cwtaAl4/XpMnKISkJyNR_MdD9lZnOg/view?utm_content=DAG7cwtaAl4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hbd4d82c3bd"
         },
         {
             title: "Docker Fundamental",
@@ -66,7 +67,7 @@ export default {
             description: "Collaborated in a university-led application project focused on forecasting student admissions for Telkom University from 2025 to 2030.",
             techStack: ["Python", "Machine Learning", "TensorFlow", "Keras", "Scikit-learn"],
             image: aiProject,
-            link: "https://github.com/alexdoe/signal-tool"
+            link: null
         }
     ],
     certificates: [
@@ -74,14 +75,14 @@ export default {
             title: "CCNA: Introduction to Networks",
             issuer: "Cisco",
             date: "2023",
-            link: "https://www.credly.com",
+            link: "https://drive.google.com/file/d/1iZvxbbFW1svmDR785ubYJLE1HJ_RpceD/view?usp=drive_link",
             image: ccnaCertif
         },
         {
             title: "Docker Fundamental",
             issuer: "Adinusa",
             date: "2024",
-            link: "https://os.university",
+            link: "https://drive.google.com/file/d/1iZvxbbFW1svmDR785ubYJLE1HJ_RpceD/view?usp=drive_link",
             image: dockerCertif
         }
     ]
