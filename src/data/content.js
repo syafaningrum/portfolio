@@ -44,7 +44,7 @@ export default {
             title: "xApp on OpenRAN",
             description: "Create xApp for OpenRAN in simulation environment",
             techStack: ["Open5GS", "SRSRAN", "OpenAirInterface"],
-            image: dockerCertif,
+            image: xappProject,
             link: "https://hackmd.io/@syafaa/OpenRAN/edit"
         },
         {
