@@ -5,7 +5,6 @@ import sdniotProject from '../assets/portfolio/sdniot.png';
 import ccnaCertif from '../assets/certificate/ccna.jpg';
 import dockerProject from '../assets/portfolio/docker.png';
 import aiProject from '../assets/portfolio/ai.png';
-import resume from './public/resume.pdf';
 
 export default {
     personalInfo: {
@@ -13,7 +12,7 @@ export default {
         role: "Telecommunication Engineering Student",
         bio: "Aspiring network engineer and developer utilizing technology to connect the world. Passionate about IoT, 5G, and Data.",
         image: profileImage,
-        resumeLink: "",
+        resumeLink: "https://drive.google.com/file/d/1kASD1hIQG_rFfKBPt8ABCNvC-tP1dLOd/view?usp=sharing",
         contact: {
             email: "ssyafaningrum@gmail.com",
             linkedin: "https://www.linkedin.com/in/siti-nurhayati-syafaningrum-b113931b0/",
@@ -60,7 +59,7 @@ export default {
             description: "Learn Docker Fundamental",
             techStack: ["Docker", "Docker Compose", "Docker Hub"],
             image: dockerProject,
-            link: "https://github.com/alexdoe/signal-tool"
+            link: "https://hackmd.io/@syafaa/Docker_Fundamental"
         },
         {
             title: "AI-Based Admission Forecasting",
