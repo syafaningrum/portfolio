@@ -58,7 +58,7 @@ const Certificates = ({ certificates }) => {
                                             rel="noopener noreferrer"
                                             className="inline-flex items-center text-sm font-medium text-slate-500 hover:text-rose-gold transition-colors group/link"
                                         >
-                                            View Credential
+                                            View Certificate
                                             <ExternalLink size={14} className="ml-1 group-hover/link:translate-x-1 transition-transform" />
                                         </a>
                                     )}

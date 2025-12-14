@@ -20,8 +20,18 @@ const Projects = ({ projects }) => {
                             className="w-full max-w-[350px] bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:shadow-rose-100/50 transition-all duration-300 border border-slate-100 group flex flex-col"
                         >
                             <div className="h-48 bg-rose-50 flex items-center justify-center relative overflow-hidden">
-                                <div className="absolute inset-0 bg-rose-gold/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                                <FolderHeart size={48} className="text-rose-200 group-hover:scale-110 transition-transform duration-300" />
+                                {project.image ? (
+                                    <img
+                                        src={project.image}
+                                        alt={project.title}
+                                        className="w-full h-full object-cover transform transition-transform duration-500"
+                                    />
+                                ) : (
+                                    <>
+                                        <div className="absolute inset-0 bg-rose-gold/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                                        <FolderHeart size={48} className="text-rose-200 group-hover:scale-110 transition-transform duration-300" />
+                                    </>
+                                )}
                             </div>
 
                             <div className="p-8 flex-grow flex flex-col">

@@ -1,8 +1,17 @@
+import profileImage from '../assets/profile.png';
+import dockerCertif from '../assets/certificate/docker.png';
+import xappProject from '../assets/portfolio/xApp.png';
+import sdniotProject from '../assets/portfolio/sdniot.png';
+import ccnaCertif from '../assets/certificate/ccna.jpg';
+import dockerProject from '../assets/portfolio/docker.png';
+import aiProject from '../assets/portfolio/ai.png';
+
 export default {
     personalInfo: {
         name: "Siti Nurhayati Syafaningrum",
         role: "Telecommunication Engineering Student",
-        bio: "Aspiring network engineer and developer utilizing technology to connect the world. Passionate about IoT, 5G, and Web Development.",
+        bio: "Aspiring network engineer and developer utilizing technology to connect the world. Passionate about IoT, 5G, and Data.",
+        image: profileImage,
         resumeLink: "/resume.pdf",
         contact: {
             email: "ssyafaningrum@gmail.com",
@@ -12,29 +21,51 @@ export default {
     },
     experiences: [
         {
-            role: "Network Intern",
-            company: "Telkom Indonesia",
-            date: "Jun 2024 - Aug 2024",
-            description: "Assisted in monitoring network traffic and troubleshooting fiber optic connections in the regional office."
+            role: "Data Engineer Intern",
+            company: "PT Telekomunikasi Seluler (Telkomsel)",
+            date: "Jul 2025 - Aug 2025",
+            description: "Optimized large-scale data queries from Hadoop clusters to serve multiple sub- directorates, enabling faster and more accurate business insights. Designed and developed a new “Tools” Page for Telkomsel’s internal web portal, delivering three productivity tools (PDF Splitter, PDF Merger, and Sentiment Analyzer) as a full-stack developer"
         },
         {
-            role: "Head of Research",
-            company: "Tel-U Tech Club",
-            date: "Jan 2024 - Present",
-            description: "Leading a team of 10 students in researching 5G implementation in rural areas."
+            role: "Researcher",
+            company: "Adaptive Network Laboratory",
+            date: "Apr 2024 - Present",
+            description: "Engaged in an international research grant project titled \"Empowering IoT Networks with Open- Source SDN using Multi- Tenant Slicing via Ryu Controller and IoT-DLVisor.\" This research focuses on SDN architecture and IoT implementation using microservices-based Ryu and network slicing."
+        },
+        {
+            role: "AI-Based Admission Forecasting",
+            company: "Artificial Intelligence Learning and Optimization (AILO) Telkom University",
+            date: "May 2025 - Jul 2025",
+            description: "Collaborated in a university-led research project focused on forecasting student admissions for Telkom University from 2025 to 2030."
         }
     ],
     projects: [
         {
-            title: "Smart Home Dashboard",
-            description: "A centralized dashboard to monitor IoT devices using MQTT and React.",
-            techStack: ["React", "MQTT", "Node.js"],
-            link: "https://github.com/alexdoe/smart-home"
+            title: "xApp on OpenRAN",
+            description: "Create xApp for OpenRAN in simulation environment",
+            techStack: ["Open5GS", "SRSRAN", "OpenAirInterface"],
+            image: dockerCertif,
+            link: "https://hackmd.io/@syafaa/OpenRAN/edit"
         },
         {
-            title: "Network & Signal Analysis Tool",
-            description: "Python script to analyze weak signal spots in campus area using gathered data logs.",
-            techStack: ["Python", "Pandas", "Matplotlib"],
+            title: "SDN IoT",
+            description: "Empowering IoT Networks with Open- Source SDN using Multi- Tenant Slicing via Ryu Controller and IoT-DLVisor",
+            techStack: ["Ryu Controller", "Raspberry Pi", "Flowvisor", "OpenFlow", "SDN"],
+            image: sdniotProject,
+            link: "https://github.com/alexdoe/signal-tool"
+        },
+        {
+            title: "Docker Fundamental",
+            description: "Learn Docker Fundamental",
+            techStack: ["Docker", "Docker Compose", "Docker Hub"],
+            image: dockerProject,
+            link: "https://github.com/alexdoe/signal-tool"
+        },
+        {
+            title: "AI-Based Admission Forecasting",
+            description: "Collaborated in a university-led application project focused on forecasting student admissions for Telkom University from 2025 to 2030.",
+            techStack: ["Python", "Machine Learning", "TensorFlow", "Keras", "Scikit-learn"],
+            image: aiProject,
             link: "https://github.com/alexdoe/signal-tool"
         }
     ],
@@ -44,14 +75,14 @@ export default {
             issuer: "Cisco",
             date: "2023",
             link: "https://www.credly.com",
-            image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=600" // Placeholder
+            image: ccnaCertif
         },
         {
-            title: "Google UX Design Professional Certificate",
-            issuer: "Google",
+            title: "Docker Fundamental",
+            issuer: "Adinusa",
             date: "2024",
             link: "https://os.university",
-            image: "https://images.unsplash.com/photo-1572044162444-ad6021194362?auto=format&fit=crop&q=80&w=600" // Placeholder
+            image: dockerCertif
         }
     ]
 };

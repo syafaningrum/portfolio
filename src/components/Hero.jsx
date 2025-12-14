@@ -53,9 +53,11 @@ const Hero = ({ data }) => {
                     <div className="order-1 md:order-2 flex justify-center relative">
                         <div className="w-72 h-72 md:w-96 md:h-96 bg-rose-100 rounded-full flex items-center justify-center relative overflow-hidden ring-8 ring-white shadow-2xl">
                             {/* Replace with actual image later */}
-                            <div className="w-full h-full bg-slate-200 flex items-center justify-center text-slate-400 font-serif">
-                                <span className="text-2xl">Profile Image</span>
-                            </div>
+                            <img
+                                src={data.image}
+                                alt={data.name}
+                                className="w-full h-full object-cover"
+                            />
                         </div>
                         {/* Decorative Elements */}
                         <div className="absolute -top-4 -right-4 w-24 h-24 bg-rose-200 rounded-full blur-2xl opacity-60 animate-pulse"></div>
